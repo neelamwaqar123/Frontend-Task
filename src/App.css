@@ -1,0 +1,16 @@
+@import '~antd/dist/antd.css';
+
+.App  {
+  text-align: center;
+  height: 78%;
+  background-color:beige;
+  min-height: 860px;
+ 
+}
+.App h1{
+  color:#451723;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 4em;
+  padding-top: 1em;
+ 
+}

@@ -1,0 +1,49 @@
+.animal_container{
+   background-color:beige;
+
+}
+.animal_container input{
+    width: 67%;
+    height: 80%;
+    padding: 1%;
+    border:1px solid #451723;
+    border-radius: 5px;
+}
+input:focus{
+    border:1px solid 451723;
+
+}
+.animal_container label{
+    margin-right: 3%;
+    color:#451723;
+    font-size: 2em;
+    font-weight: 700;
+}
+ul {
+    display: grid;
+    -webkit-grid-template-columns: auto auto  auto auto;
+    -moz-grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    list-style-type: none;
+    padding: 2em; 
+}
+li{
+    padding-bottom: 1em;
+    padding-top: 1em;
+    margin-left: 1em;
+    font-size: large;
+    border-radius: 5px;
+    
+}
+
+
+
+li:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: 700;
+    font-size: 1.5em;
+    color:wheat;
+    background-color:#451723;
+}
+
